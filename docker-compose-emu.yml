@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  raspberry-pi:
+    container_name: RaspPi
+    image: lukechilds/dockerpi
+    volumes:
+      - ./pihole-install.sh:/home/raspberry/
